@@ -7,28 +7,23 @@ public class MyApp {
         System.out.println("Programa que calcula el promedio de cuatro notas");
 
         //Defino las variables
-        double primeraCalificacion;
-        double segundaCalificacion;
-        double terceraCalificacion;
-        double cuartaCalificacion;
-        double sumaDeCalificaciones;
-        double promedio;
+        double primeraCalificacion, segundaCalificacion,terceraCalificacion,cuartaCalificacion, sumaDeCalificaciones, promedio ;
 
         //Habilido el ingreso de datos por el taclado
         Scanner keyboard = new Scanner(System.in);
 
         //Leo los datos del usuario
         System.out.print("Ingrese la primera calificacion: ");
-        primeraCalificacion = keyboard.nextInt();
+        primeraCalificacion = keyboard.nextDouble();
 
         System.out.print("Ingrese la segunda calificacion: ");
-        segundaCalificacion = keyboard.nextInt();
+        segundaCalificacion = keyboard.nextDouble();
 
         System.out.print("Ingrese la tercera calificacion: ");
-        terceraCalificacion = keyboard.nextInt();
+        terceraCalificacion = keyboard.nextDouble();
 
         System.out.print("Ingrese la cuarta calificacion: ");
-        cuartaCalificacion = keyboard.nextInt();
+        cuartaCalificacion = keyboard.nextDouble();
 
         //Realizo el proceso de la suma de las calificaciones
         sumaDeCalificaciones = primeraCalificacion + segundaCalificacion + terceraCalificacion + cuartaCalificacion;
