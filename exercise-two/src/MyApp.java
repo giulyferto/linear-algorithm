@@ -19,16 +19,16 @@ public class MyApp {
 
         //Leo los datos del usuario
         System.out.print("Ingrese la primera calificacion: ");
-        primeraCalificacion = keyboard.nextInt();
+        primeraCalificacion = keyboard.nextDouble();
 
         System.out.print("Ingrese la segunda calificacion: ");
-        segundaCalificacion = keyboard.nextInt();
+        segundaCalificacion = keyboard.nextDouble();
 
         System.out.print("Ingrese la tercera calificacion: ");
-        terceraCalificacion = keyboard.nextInt();
+        terceraCalificacion = keyboard.nextDouble();
 
         System.out.print("Ingrese la cuarta calificacion: ");
-        cuartaCalificacion = keyboard.nextInt();
+        cuartaCalificacion = keyboard.nextDouble();
 
         //Realizo el proceso de la suma de las calificaciones
         sumaDeCalificaciones = primeraCalificacion + segundaCalificacion + terceraCalificacion + cuartaCalificacion;
