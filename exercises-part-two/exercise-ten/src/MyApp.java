@@ -16,7 +16,7 @@ public class MyApp {
         System.out.print("Ingrese la cantidad de metros cubicos consumidos: ");
         consumoMetro = keyboard.nextDouble();
 
-        System.out.print("ingrese el costo por metro cubico: ");
+        System.out.print("Ingrese el costo por metro cubico: ");
         precioMetro = keyboard.nextDouble();
 
         //Se calcula el costo del boleto
