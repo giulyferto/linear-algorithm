@@ -4,7 +4,9 @@ public class MyApp {
     public static void main(String[] args) {
         System.out.println("Ejercicio 10: La CONAGUA requiere determinar el pago que debe realizar una persona por el total de\n" +
                 "metros cúbicos que consume de agua. Realice un diagrama de flujo y pseudocódigo que\n" +
-                "representen el algoritmo que permita determinar ese pago.");
+                "representen el algoritmo que permita determinar ese pago.\n");
+
+
 
         //Definir las variables
         double precioMetro, consumoMetro, pago;
