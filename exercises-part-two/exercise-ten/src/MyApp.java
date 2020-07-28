@@ -7,23 +7,22 @@ public class MyApp {
                 "representen el algoritmo que permita determinar ese pago.\n");
 
 
-
         //Definir las variables
-        double precioMetro, consumoMetro, pago;
+        double meterPrice, metersConsumed, payment;
 
         //Se habilita el uso del teclado
         Scanner keyboard = new Scanner(System.in);
 
         //Se piden los datos del usuario
         System.out.print("Ingrese la cantidad de metros cubicos consumidos: ");
-        consumoMetro = keyboard.nextDouble();
+        metersConsumed = keyboard.nextDouble();
 
         System.out.print("Ingrese el costo por metro cubico: ");
-        precioMetro = keyboard.nextDouble();
+        meterPrice = keyboard.nextDouble();
 
         //Se calcula el costo del boleto
-        pago = precioMetro * consumoMetro;
+        payment = meterPrice * metersConsumed;
 
-        System.out.println("El costo a pagar es de: "+ pago);
+        System.out.println("El costo a pagar es de: " + payment);
     }
 }
