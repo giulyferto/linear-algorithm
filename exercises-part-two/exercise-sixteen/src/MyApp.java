@@ -12,7 +12,7 @@ public class MyApp {
         Scanner keyboard = new Scanner(System.in);
 
         //Pido los datos del usuario
-        System.out.print("Ingrese la medida de uno de los lados del triangulo: ");
+        System.out.print("Ingrese la medida de uno de los lados del cuadrado: ");
         sideA = keyboard.nextDouble();
 
         //Realizo el calculo para encontrar el area
